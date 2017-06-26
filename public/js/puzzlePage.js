@@ -1,4 +1,5 @@
-const PUZZLE_DIFFICULTY = 4;
+//This should be optional
+const PUZZLE_DIFFICULTY = 5;
 const PUZZLE_HOVER_TINT = '#009900';
 
 var _canvas;
@@ -18,6 +19,7 @@ var _mouse;
 function init() {
     _img = new Image();
     _img.addEventListener('load', onImage, false);
+    //This is supposed to be optional
     _img.src = "../img/HarleyQueen.jpg";
 }
 
