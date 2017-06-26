@@ -18,7 +18,7 @@ var _mouse;
 function init() {
     _img = new Image();
     _img.addEventListener('load', onImage, false);
-    _img.src = "mke.jpg";
+    _img.src = "../img/HarleyQueen.jpg";
 }
 
 function onImage(e) {
