@@ -4,13 +4,43 @@
     <title>HTML5 Puzzle</title>
     <script src="../js/puzzlePage.js">
     </script>
-
+    <link rel="stylesheet" type="text/css" href="../css/puzzlePage.css" />
 
 
 </head>
 
 <body onload="init();">
     <canvas id="canvas"></canvas>
+
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn">Open Modal</button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <center>
+                <h4>Select Difficulty:</h4>
+
+                <div class="styled-select blue semi-square">
+                    <select>
+                        <option>Easy</option>
+                        <option>Medium</option>
+                        <option>Hard</option>
+                        <option>Master</option>
+                        <option>Impossible</option>
+                    </select>
+                </div>
+
+                <br>
+                <button class="btn btn-info btn-lg">Start Puzzle</button>
+            </center>
+        </div>
+
+    </div>
+
 </body>
 
 
